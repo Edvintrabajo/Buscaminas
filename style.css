@@ -9,7 +9,6 @@ body {
 
 #contenedor {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,6 +72,10 @@ a {
 
 #avanzado {
     background-color: red;
+}
+
+#imposible {
+    background-color: blueviolet;
 }
 
 #sonriente {
