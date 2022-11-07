@@ -1,0 +1,172 @@
+/*GLOBAL*/
+body {
+    width: 100%;
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#contenedor {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+#contenedor-volver {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cabezera {
+    width: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    margin-left: -35px;
+}
+
+#cronometro {
+    margin-top: -15px;
+    color: red;
+}
+
+#volver {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+#basico {
+    background-color: greenyellow;
+}
+
+#intermedio {
+    background-color: yellow;
+}
+
+#avanzado {
+    background-color: red;
+}
+
+#sonriente {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.happy {
+    background-image: url(./img/smile.svg);
+}
+
+.angry {
+    background-image: url(./img/angry.svg);
+}
+
+.ganar {
+    background-image: url(./img/ganar.svg);
+}
+
+/*CASILLAS*/
+.casillas {
+    display: flex;
+}
+
+.casilla {
+    width: 24px;
+    height: 24px;
+    background-color:#c6c6c6;
+    border: 1px solid dimgray;
+}
+
+.cerrado {
+    background-color:#c6c6c6;
+}
+
+.abierto {
+    background-color: gray;
+}
+
+.bomba {
+    background-image: url(./img/bomb.svg);
+    background-color: gray;
+}
+
+.ocultarBomba {
+    background-image: none;
+    background-color:#c6c6c6;
+}
+
+.ocultarNumero {
+    font-size: 0;
+}
+
+.bandera {
+    background-image: url(./img/flag.svg);
+}
+
+
+/*NUMEROS*/
+.numero {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.uno {
+    color: blue;
+}
+
+.dos {
+    color: green;
+}
+
+.tres {
+    color: red;
+}
+
+.cuatro {
+    color: purple;
+}
+
+.cinco {
+    color: maroon;
+}
+
+.seis {
+    color: teal;
+}
+
+.siete {
+    color: black;
+}
+
+.ocho {
+    color: gray;
+}
